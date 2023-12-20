@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+  
+        <div class="nav">
+            <h1>Jogo da velha</h1>
+            <h3>Feito em JavaScript</h3>
+        </div>
+
+        <div class="container">
+            <div class="side">
+                <div class="jogadores">
+                    <h2>Jogadores: </h2>
+                    
+                    <div class="j1">
+                        <h3>Jogador 1</h3>
+                        <div class="colorP">
+                            <button id="colorP" disabled></button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="j2">
+                        <h3>Jogador 2</h3>
+                        <div class="colorP">
+                            <button id="colorG" disabled></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="placar">
+                    <h2>Placar Atual</h2>
+                    <div class="j1">
+                        <h3>Jogador 1</h3> 
+                        <h3 id="resultadoP1"> 0 </h3>
+
+                    </div>
+
+                    <div class="j2">
+                        <h3>Jogador 2</h3> 
+                        <h3 id="resultadoP2"> 0 </h3>
+
+                    </div>
+                </div>
+
+                <div class="reset">
+                    <button id="zerar" onclick="zerar()">Zerar Jogo</button>
+                </div>
+                
+            </div>
+
+            <div class="main">
+                <div class="ganhador">
+                    <h1 id="ganhador">Bom Jogo </h1>
+                </div>
+                <div class="jogo">
+                    <table class="table">
+                        <tr>
+                            <td id="1" class="disable">1</td>
+                            <td id="2" class="disable">2</td>
+                            <td id="3" class="disable">3</td>
+        
+                        </tr>
+                        <tr>
+                            <td id="4" class="disable">3</td>
+                            <td id="5" class="disable">5</td>
+                            <td id="6" class="disable">6</td>
+                        </tr>
+                        <tr>
+                            <td id="7" class="disable">7</td>
+                            <td id="8" class="disable">8</td>
+                            <td id="9" class="disable">9</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="reset">
+                    <button id="recomecar" onclick="reset()">Recomeçar Jogo</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Site feito por Renan de Oliveira Silva</h3>
+            <div class="contato">
+                <button><a href="https://www.linkedin.com/in/renan-de-oliveira-silva-416721289/"><img src="./img/linkedin.png" alt=""></a></button>
+                <button><a href="https://github.com/RenanOliveiraSilva"><img src="./img/github-logo.png" alt=""></a></button>
+                <button><a href="mailto:renandeoliveirasilva123@gmail.com"><img src="./img/gmail.png" alt=""></a></button>
+
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
