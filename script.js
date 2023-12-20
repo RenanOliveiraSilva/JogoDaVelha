@@ -143,7 +143,7 @@ function ganhador(player) {
         reset();
 
     } else {
-        alert("Empate");
+        mostraResultado3();
         reset();
 
     }
@@ -159,6 +159,11 @@ function mostraResultado2(contVitoria2, player) {
     r2.innerHTML = contVitoria2;
     winner.innerHTML = 'Jogador ' +player+ ' ganhou';
     p2Ganhou();
+}
+
+function mostraResultado3() {
+    winner.innerHTML = 'Jogo empatado'; 
+    empate();
 }
 
 function reset() {
@@ -199,6 +204,15 @@ function zerar() {
 
     contVitoria1 = 0;
     contVitoria2 = 0;
+    reset();
 
 }
 
+function empate() {
+    table.id = "empate";
+    
+    setTimeout(function() {
+        table.id = "";
+        winner.innerHTML = "Bom jogo";
+    }, 1500);
+}
