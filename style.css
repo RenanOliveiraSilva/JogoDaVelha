@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav h1, .nav h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.nav {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(228, 205, 255);
+    border-bottom: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.side {
+    flex: 35%;
+    padding: 15px;
+    border-right: 1px solid black;
+    background-color: beige;
+    
+}
+
+.jogadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 26px 0px 27px 0px;
+}
+
+.colorP {
+    padding: 18px 5px 0px 0px;
+}
+
+#colorP {
+    background-color: blueviolet;
+    height: 30px;
+    width: 30px;
+    margin: 0cm;
+    padding: 0px;
+    border: 0px none;
+}
+
+#colorG {
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    margin: 0cm;
+    padding: 0px;
+    border: 0px none;
+}
+
+.placar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.placar h2, .jogadores h2 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.placar .j1, .jogadores .j1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    border-top: 2px solid black;
+}
+
+.placar .j2, .jogadores .j2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    border-top: 2px solid black;
+
+}
+
+.main {
+    flex: 65%;
+    justify-content: center;
+    background-color: rgb(254, 254, 247);
+    
+}
+
+
+.ganhador {
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.jogo {
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.reset {
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.reset button {
+    width: 140px;
+    height: 60px;
+    font-size: 1rem;
+    border: 0px none;
+    border-radius: 8px;
+    background-color: rgb(213, 176, 255);
+}
+
+.reset button:hover {
+    background-color: rgb(186, 126, 255);
+    color: rgb(202, 202, 202);
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+tr{
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.p1 {
+    background-color: blueviolet;
+}
+
+.p2 {
+    background-color: aqua;
+}
+
+.disable:hover {
+    cursor: pointer;
+    background-color: rgb(185, 185, 185);
+}
+
+.footer {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: rgb(228, 228, 228);
+
+}
+
+.footer h3 {
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+
+.footer button {
+    margin: 4px 8px 4px 8px;
+    background-color: rgb(228, 228, 228);
+    border: 0;
+}
+
+.footer button:hover {
+    background-color: rgb(136, 136, 136);
+
+}
+
+.contato {
+    display: flex;
+    flex: 100%;
+    
+}
+
+.contato img {
+    width: 25px;
+    height: 25px;
+}
