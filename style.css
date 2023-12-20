@@ -237,6 +237,10 @@ td {
     background-color: aqua;
 }
 
+#empate {
+    background-color: rgb(150, 48, 97);
+}
+
 @media screen and (max-width: 800px) {
     .side {
         flex: 35%;
