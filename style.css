@@ -37,7 +37,7 @@ body {
 
 .side {
     flex: 35%;
-    padding: 15px;
+    padding: 15px 50px 15px 50px;
     border-right: 1px solid black;
     background-color: beige;
     
@@ -157,6 +157,7 @@ table {
     border-collapse: collapse;
     margin: 0;
     padding: 0;
+    
 }
 
 tr{
@@ -226,4 +227,22 @@ td {
 .contato img {
     width: 25px;
     height: 25px;
+}
+
+#victory1 {
+    background-color: blueviolet;
+}
+
+#victory2 {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 800px) {
+    .side {
+        flex: 35%;
+        padding: 15px 100px 15px 100px;
+        border-right: 1px solid black;
+        background-color: beige;
+        
+    }
 }
