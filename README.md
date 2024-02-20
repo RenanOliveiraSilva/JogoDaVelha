@@ -1,5 +1,6 @@
-# JogoDaVelha
+<h1 align="Center"> 🎲: Jogo da Velha </h1>
+<p align="Center"> :rocket: Realização do clássico e divertido jogo da velha</p>
 
-Projeto realizado em javaScript, HTML e css. Feito para testar meus conhecimentos.
+
 
 Você pode jogar em: https://jogo-da-velha-theta-ruby.vercel.app
